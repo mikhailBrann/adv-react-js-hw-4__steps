@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.steps-form__wrap {
+  display: grid;
+  gap: 30px;
+  font-size: 16px;
+}
+
+.steps-form {
+  display: grid;
+  grid-template-columns: 4fr 4fr 1.5fr;
+  gap: 30px;
+  align-items: end;
+}
+
+.form-fields__item {
+  display: grid;
+  gap: 10px;
+  text-align: start;
+}
+
+.form-fields {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.form-btn {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  background: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.step-list {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 12px;
+  display: grid;
+  gap: 20px;
+}
+
+.step-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.step-list__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.step-list__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.step-list__wrap {
+  display: grid;
+  gap: 20px;
+}
+
+.step-item__remove {
+  width: 20px;
+  cursor: pointer;
+}
